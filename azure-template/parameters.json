@@ -27,8 +27,11 @@
             "value": "azure-cli"
         },
         "virtualMachineRG": {
-            "value": "sans1weursggenerigene001"
+            "value": "sans1weursgcldk8stech002"
         },
+        "osDiskName": {
+            "value": "azure-cli_OSDisk_0"
+        },		
         "osDiskType": {
             "value": "Standard_LRS"
         },
@@ -45,10 +48,10 @@
             "value": "azsancli"
         },		
         "diagnosticsStorageAccountName": {
-            "value": "sans1weursggenerigene001"
+            "value": "sans1weursgcldk8stech001"
         },
         "diagnosticsStorageAccountId": {
-            "value": "/subscriptions/8bfeca61-c921-4fa0-8ac0-eb62b7072a01/resourceGroups/sans1weursggenerigene001/providers/Microsoft.Storage/storageAccounts/sans1weursggenerigene001"
+            "value": "/subscriptions/8bfeca61-c921-4fa0-8ac0-eb62b7072a01/resourceGroups/sans1weursgcldk8stech002/providers/Microsoft.Storage/storageAccounts/sans1weursgcldk8stech001"
         }
     }
 }

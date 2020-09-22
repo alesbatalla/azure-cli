@@ -2,6 +2,8 @@
 Azure tools. (Git, Ansible, Azire Cli)
 
 ``` bash
+az login
+az account set --subscription sans1glbsubgeneriglob001
 export RG=sans1weursgcldk8stech002
 az deployment group create -g $RG --name azure-cli --template-file azure-template/template.json --parameters @azure-template/parameters.json
 az vm extension set \
